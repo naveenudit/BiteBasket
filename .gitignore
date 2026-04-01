@@ -1,0 +1,9 @@
+db.php
+login_action.php
+register_action.php
+logout.php
+.env
+node_modules/
+dist/
+build/
+*.log

@@ -1,0 +1,116 @@
+body{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fffdf7;
+    color: #333;
+}
+
+.main{
+    background-color: #fff3e0;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1050px;
+    margin: auto;
+}
+.text{
+    max-width: 50%;
+}
+.text h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 1.6em;
+}
+.main_image{
+    max-width: 40%;
+    width: 400px;
+    height: auto;
+}
+.text a button{
+    background-color: #ff7043;
+    color: #333;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.product-main{
+    max-width: 1050px;
+    margin: auto;
+}
+.product-main h2{
+    text-align: center;
+    font-weight: bold;
+}
+.line{
+    background-color: #ff7043;
+    width: 60px;
+    height: 5px;
+    margin: auto;
+    border-radius: 3px;
+}
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.product{
+    background: white;
+    border: 1px solid #ddd;
+    padding: 6px;
+    margin-top: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.product:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.product img {
+    width: 240px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.product a{
+    text-decoration: none;
+    color: #333;
+}
+.product h3{
+    font-size: 22px;
+}
+.explore_button{
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.explore_button button{
+    background-color: #ff7043;
+    color: #333;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.explore_button button:hover{
+    background: #e85d34;
+}
